@@ -37,11 +37,17 @@ const ExperienceSlub = ({company_name,designation,company_address,date, items}) 
     </div>
     <div className="exp-items">
       {
-        items.map(item => (
-          
+        items.map(item => (          
           <ul>
-            <li>
-              <div className="item-name">{item.name}</div>
+            <li key={items.name}>
+              {
+                item.name === "Description" && 
+                !(item.description === null) &&
+                <div className="item-name">{item.name}</div>
+                ||
+                item.name !== "Description" &&
+                <div className="item-name">{item.name}</div>
+              }
               {
                 item.description && <p className='item-description'>{item.description}</p>
               }
@@ -146,7 +152,7 @@ const resume_data = {
     {
       name: 'Frameworks',
       description:
-        'Strong professional development experience in Spring Boot 2, PostgreSQL, ReactJs,NextJs, Angular 6 and familiarity with Django REST Framework and React.',
+        'Strong professional development experience in Spring Boot 2, PostgreSQL, ReactJs,NextJs, Angular 6 and familiarity with Django REST Framework.',
     },
     {
       name: 'Miscellaneous',
@@ -161,23 +167,27 @@ const resume_data = {
       designation: 'Sr. Software Engineer',
       fromTo: ' April 2022 - Present',
       items: [
-        {
-          name: 'Description',
-          bulletPoints: false,
-          description: 'I have worked on (frontend and mobile) a blockchain based trading and ecommerce platform (konatokentrade.com), (frontend) an api selling platform for the flagship product KonaCard (konaplate.com) and (backend) an platform as a service portal side.',
-        },
+        // {
+        //   name: 'Description',
+        //   bulletPoints: false,
+        //   description: null
+        //   // description: 'I have worked on (frontend and mobile) a blockchain based trading and ecommerce platform (konatokentrade.com), (frontend) an api selling platform for the flagship product KonaCard (konaplate.com) and (backend) an platform as a service portal side.',
+        // },
         {
           name: 'Responsibilities',
           bulletPoints: true,
           points: [
-            'Development of responsive frontend and scallable backend.',
-            'Structuring and developing mobile application for the project.',
-            'Converting current code base from ReactJs to NextJs.',
+            'Frontend and Flutter App development of cryptocurrency trading platform.',
+            'Backend development of a portal website for payment solution',
+            'Unit test coverage'
+            // 'Development of responsive frontend and scallable backend.',
+            // 'Structuring and developing mobile application for the project.',
+            // 'Converting current code base from ReactJs to NextJs.',
           ],
         },
         {
           name: "Solution Include",
-          description: "ReactJS, NextJS, Spring-Boot, JUnit, Postgres, MariaDB, Flutter, Kafka, RabbitMQ"
+          description: "ReactJS, NextJS, Spring-Boot, JUnit, Postgres, MariaDB, Flutter, Kafka, RabbitMQ, Redis"
         }
       ],
     },
@@ -187,17 +197,17 @@ const resume_data = {
       designation: 'Software Engineer',
       fromTo: ' July 2021 - April 2022',
       items: [
-        {
-          name: 'Description',
-          bulletPoints: false,
-          description: 'RedDot Digital is a subsidiary of Robi Axiata Limited. I started in MFS (Mobile Financial Solution) division under DSIV-RedDot',
-        },
+        // {
+        //   name: 'Description',
+        //   bulletPoints: false,
+        //   description: null
+        //   // description: 'RedDot Digital is a subsidiary of Robi Axiata Limited. I started in MFS (Mobile Financial Solution) division under DSIV-RedDot',
+        // },
         {
           name: 'Responsibilities',
           bulletPoints: true,
           points: [
-            "Development of responsive frontend dashboard and payment sites.",
-            "Maintain, development and cross-team communication for two telecom solutions that serves over 10,000 users per hour"
+            "Monitor and maintain development, deployment and cross-team communication for two telecom solutions"
           ],
         },
         {
@@ -212,23 +222,24 @@ const resume_data = {
       designation: 'Software Engineer',
       fromTo: ' May 2019 - July 2021',
       items: [
-        {
-          name: 'Description',
-          bulletPoints: false,
-          description: 'As part of its digitalization process, the Bangladesh government has developed Government Resource Planning (GRP), an Enterprise Resource Planning (ERP) solution of its own, to manage works electronically to optimize and economize assets and expenses. GRP consists of eleven domain. From which, I have worked on the “Assets", "Budget",  "Audit" and "Human Resource" domains.',
-        },
+        // {
+        //   name: 'Description',
+        //   bulletPoints: false,
+        //   description: null
+        //   // description: 'As part of its digitalization process, the Bangladesh government has developed Government Resource Planning (GRP), an Enterprise Resource Planning (ERP) solution of its own, to manage works electronically to optimize and economize assets and expenses. GRP consists of eleven domain. From which, I have worked on the “Assets", "Budget",  "Audit" and "Human Resource" domains.',
+        // },
         {
           name: 'Responsibilities',
           bulletPoints: true,
           points: [
-            "Development of responsive frontend dashboard and payment sites.",
-            "Develop new and maintain existing RESTfull APIs while optimizing queries with business standards and requirements.",
-            "Maintain, development and cross-team communication for two telecom solutions that serves over 10,000 users per hour"
+            'Full-Stack Development of ERP solution',
+            'End to End test coverage',
+            'Maintain script tools to support deployment and developer efficiency'
           ],
         },
         {
           name: "Solution Include",
-          description: "Angular, Spring-Boot, Postgres, Protractor, Django, Bash Script"
+          description: "Angular, Spring-Boot, Postgres, Protractor, Django, Bash Script, Jenkins, Docker, Linux-Service"
         }
       ],
     },
