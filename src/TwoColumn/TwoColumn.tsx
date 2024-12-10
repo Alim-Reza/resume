@@ -12,7 +12,7 @@ function TwoColumn() {
   <div className="twoColumns">
     <div id="left">
       <Summary value={ResumeDataV2.summary} />
-      <Experience value={ResumeDataV2.summary} />
+      <Experience value={ResumeDataV2.experience} />
       <Education value={ResumeDataV2.summary} />
     </div>
     <div id="right">
