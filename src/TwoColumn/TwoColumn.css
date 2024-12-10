@@ -1,9 +1,20 @@
 section {
-  border-bottom: 2px solid black;
   h1 {
     font-size: large;
+    border-bottom: 2px solid black;
   }
   p {
     font-size: small;
   }
+}
+
+.twoColumns {
+  display: flex;
+  justify-content: space-between;
+}
+#left {
+  width: 65%;
+}
+#right {
+  width: 30%;
 }
