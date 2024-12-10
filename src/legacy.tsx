@@ -1,6 +1,6 @@
 import './legacyApp.css';
 
-function LegacyApp() {
+export default function LegacyApp() {
   return <>
   <section className="header">
     <div className="employeeName">{resume_data.name}</div>
@@ -122,7 +122,6 @@ const Education = () => (
   </>
 )
 
-export default App;
 
 const resume_data = {
   name: 'Alim Ahmed Reza',

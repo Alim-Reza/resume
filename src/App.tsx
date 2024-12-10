@@ -8,3 +8,4 @@ function App() {
   <section id="body"></section>
   </>;
 }
+export default App;
