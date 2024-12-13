@@ -3,7 +3,6 @@ section {
     font-size: large;
     border-bottom: 2px solid black;
     text-transform: uppercase;
-
   }
   p {
     font-size: small;
@@ -19,4 +18,8 @@ section {
 }
 #right {
   width: 30%;
+}
+.dflex {
+  display: flex;
+  justify-content: space-between;
 }

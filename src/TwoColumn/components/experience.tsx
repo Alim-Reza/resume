@@ -12,10 +12,12 @@ function Exp({items}) {
     {
         items.map(item => (          
           <>
-            <div>   {item.title}        </div>
-            <div>   {item.company}      </div>
-            <div>   {item.location}     </div>
-            <div>   {item.date}         </div>
+            <h2>   {item.title}        </h2>
+            <h3>   {item.company}      </h3>
+            <div className="dflex">
+              <div>   {item.date}         </div>
+              <div>   {item.location}     </div>
+            </div>
             <div>   {item.description}  </div>
             <div>{item.points.map(p => (
                 <li>{p}</li>
