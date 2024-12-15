@@ -14,7 +14,7 @@ function Exp({items}) {
           <>
             <h2>   {item.title}        </h2>
             <h3>   {item.company}      </h3>
-            <div className="dflex">
+            <div className="dateAndLocation">
               <div>   {item.date}         </div>
               <div>   {item.location}     </div>
             </div>

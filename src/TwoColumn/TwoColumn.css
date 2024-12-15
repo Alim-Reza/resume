@@ -1,11 +1,18 @@
 section {
+  color: rgb(68, 68, 68);
   h1 {
+    color: black;
     font-size: large;
     border-bottom: 2px solid black;
     text-transform: uppercase;
   }
   p {
     font-size: small;
+  }
+  h2, h3 {
+    color: black;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -19,7 +26,9 @@ section {
 #right {
   width: 30%;
 }
-.dflex {
+.dateAndLocation {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: left;
+  gap: 1.5em;
 }
