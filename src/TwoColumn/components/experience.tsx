@@ -1,5 +1,6 @@
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import TextWithIcon from "./common/TextWithIcon";
 
 
 function Experience({value}){
@@ -10,12 +11,7 @@ function Experience({value}){
     </section>
     </>;
 }
-function TextWithIcon({text, icon}) {
-  return <div className="icon-text">
-  {icon}
-  <div>{text}</div>
-  </div>
-}
+
 
 
 function Exp({items}) {
