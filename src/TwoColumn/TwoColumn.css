@@ -37,10 +37,10 @@ section {
   justify-content: space-between;
 }
 #left {
-  width: 65%;
+  width: 55%;
 }
 #right {
-  width: 30%;
+  width: 40%;
 }
 .dateAndLocation {
   display: flex;
@@ -69,4 +69,14 @@ section {
   border-bottom: 1px solid grey;
   box-sizing: border-box; /* Ensures padding and margin are included in width calculation */
   font-weight: 700;
+}
+.achiev-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  /* align-items: baseline; */
+}
+.a-title {
+  color: #098bff;
+  font-size: 2em;
 }

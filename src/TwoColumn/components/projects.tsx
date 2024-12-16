@@ -7,7 +7,15 @@ function Projects({value}){
         <h1>Project</h1>
         <p className="">
             {
-                value.map( x => <ProjectItem value={x} />)
+                value.map( (x, i, row) => 
+                (
+                    <>
+                    <ProjectItem value={x} />
+
+                    {(i + 1 !== row.length) && <hr />}
+                    </>
+                )
+                )
             }
         </p>
     </section>
@@ -23,7 +31,6 @@ function ProjectItem({value}) {
                 <li>{p}</li>
             ))}
         </ul>
-        {/* {(i + 1 !== row.length) && <hr />} */}
     </div>
 }
 export default Projects;

@@ -18,7 +18,7 @@ function TwoColumn() {
       <Education value={ResumeDataV2.education} />
     </div>
     <div id="right">
-      <Achevements value={ResumeDataV2.summary} />
+      <Achevements value={ResumeDataV2.achievements} />
       <Skill value={ResumeDataV2.skills} />
       <Projects value={ResumeDataV2.projects} />
     </div>

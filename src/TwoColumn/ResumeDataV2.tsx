@@ -1,3 +1,10 @@
+import { GrDocumentPerformance } from "react-icons/gr";
+import { FaStar } from "react-icons/fa6";
+import { FaBoltLightning } from "react-icons/fa6";
+import { MdOutlineSecurity } from "react-icons/md";
+
+
+
 export const ResumeDataV2 = {
 
     headerData : [
@@ -65,14 +72,17 @@ export const ResumeDataV2 = {
 achievements: [
     {
         title: "Performance Improvement",
+        icon: <FaBoltLightning />,
         description: "Enhanced data fetching, reducing load times by 30% and improving UI experience."
     },
     {
         title: "Deployment Automation",
+        icon: <FaStar />,
         description: "Automated deployment pipeline with Jenkins."
     },
     {
         title: "Security Enhancement",
+        icon: <MdOutlineSecurity />,
         description: "Prevented XSS vulnerabilities through strict content security policies and sanitization."
     }    
 ],
