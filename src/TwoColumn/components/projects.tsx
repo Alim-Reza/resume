@@ -26,7 +26,7 @@ function ProjectItem({value}) {
     return <div className="">
         <h2>{value.title}</h2>
         <TextWithIcon text={value.date} icon={<FaCalendarAlt />} />
-        <p>{value.description}</p>
+        <div>{value.description}</div>
         <ul>{value.points.map(p => (
                 <li>{p}</li>
             ))}

@@ -11,8 +11,6 @@ function Header({value}){
                     (   
                         <>
                             <TextWithIcon text={x.value} icon={x.icon} coloredIcon={true} />
-                            <br />
-                            {(i === row.length/2) && <br />}
                         </>
                     )    
                 )

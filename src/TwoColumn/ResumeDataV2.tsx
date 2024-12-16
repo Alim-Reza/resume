@@ -34,10 +34,10 @@ export const ResumeDataV2 = {
                 icon: <FaLinkedin />,
                 value: "linkedin.com/in/alim-ahmed-reza-asif"
             },
-            // {
-            //     icon: <FaLink />,
-            //     value: "hackerrank.com/aarasif2"
-            // }
+            {
+                icon: <FaLink />,
+                value: "hackerrank.com/aarasif2"
+            }
         ]
     },
 
