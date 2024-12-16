@@ -55,3 +55,18 @@ section {
   align-items: center;
   align-content: center;
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;  /* Allow the items to wrap into new lines */
+  justify-content: flex-start;  /* Align items to the left */
+}
+
+.skillsItem {
+  /* padding: .5em; */
+  padding: 0 .75em .5em .75em;
+  margin: 0 10px 10px 0;
+  border-bottom: 1px solid grey;
+  box-sizing: border-box; /* Ensures padding and margin are included in width calculation */
+  font-weight: 700;
+}
