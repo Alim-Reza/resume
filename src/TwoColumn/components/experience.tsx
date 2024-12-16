@@ -21,7 +21,7 @@ function TextWithIcon({text, icon}) {
 function Exp({items}) {
     return<>
     {
-        items.map(item => (          
+        items.map((item,i,row) => (          
           <>
             <h2>   {item.title}        </h2>
             <h3>   {item.company}      </h3>
@@ -35,7 +35,8 @@ function Exp({items}) {
                 <li>{p}</li>
             ))}
               </ul>
-          </>
+              {(i + 1 !== row.length) && <hr />}
+          </>          
         ))
       }
     
