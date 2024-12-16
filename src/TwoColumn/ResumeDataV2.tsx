@@ -3,24 +3,43 @@ import { FaStar } from "react-icons/fa6";
 import { FaBoltLightning } from "react-icons/fa6";
 import { MdOutlineSecurity } from "react-icons/md";
 
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoIosMailOpen } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
+
+
 
 
 export const ResumeDataV2 = {
 
-    headerData : [
-        {
-            type: "link",
-            value: "reza.alimahmed@gmail.com"
-        },
-        {
-            type: "link",
-            value: "+8801778746494"
-        },
-        {
-            type: "link",
-            value: "github.com/Alim-Reza"
-        }
-    ],
+    headerData : {
+        name: "Alim Ahmed Reza",
+        title: "Software Engineer",
+        links: [
+            {
+                icon: <IoIosMailOpen />,
+                value: "reza.alimahmed@gmail.com"
+            },
+            {
+                icon: <FaPhoneAlt />,
+                value: "+8801778746494"
+            },
+            {
+                icon: <FaGithub />,
+                value: "github.com/Alim-Reza"
+            },
+            {
+                icon: <FaLinkedin />,
+                value: "linkedin.com/in/alim-ahmed-reza-asif"
+            },
+            // {
+            //     icon: <FaLink />,
+            //     value: "hackerrank.com/aarasif2"
+            // }
+        ]
+    },
 
     summary: "Experienced software engineer with 5+ years in frontend and backend web development. Proven track record in delivering innovative solutions, enhancing system performance, and improving security across high-profile projects",
     experience: [

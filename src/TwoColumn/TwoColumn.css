@@ -80,3 +80,22 @@ section {
   color: #098bff;
   font-size: 2em;
 }
+.colored-icon {
+  color: #098bff;
+}
+#header {
+  padding-bottom: 1em;
+
+}
+.name {
+  border: none;
+  font-size: x-large;
+}
+.links {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  gap: 1em;
+  padding: 0;
+  margin: 0;
+}

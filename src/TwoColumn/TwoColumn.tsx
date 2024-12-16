@@ -10,7 +10,7 @@ import Summary from './components/summary';
 
 function TwoColumn() {
   return <>
-    <Header />  
+    <Header value={ResumeDataV2.headerData} />  
   <div className="twoColumns">
     <div id="left">
       <Summary value={ResumeDataV2.summary} />
