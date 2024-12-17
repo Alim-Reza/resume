@@ -48,12 +48,23 @@ section {
   justify-content: left;
   gap: 1.5em;
 }
-.icon-text {
+/* .icon-text {
   display: flex;
   justify-content: left;
   gap: .25em;
   align-items: center;
   align-content: center;
+} */
+.icon-text {
+  display: flex;
+  justify-content: left;
+  gap: .25em;
+  align-items: center;  /* Ensures both icon and text are vertically aligned */
+}
+
+.colored-icon {
+  color: #098bff;
+  vertical-align: middle;  /* This helps to align the icon with the text */
 }
 
 .skills {
@@ -75,14 +86,15 @@ section {
   justify-content: space-between;
   gap: 1em;
   /* align-items: baseline; */
+  h3 {
+    color: black;
+  }
 }
 .a-title {
   color: #098bff;
   font-size: 2em;
 }
-.colored-icon {
-  color: #098bff;
-}
+
 #header {
   padding-bottom: 1em;
   h3{

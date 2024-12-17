@@ -2,6 +2,7 @@ import { GrDocumentPerformance } from "react-icons/gr";
 import { FaStar } from "react-icons/fa6";
 import { FaBoltLightning } from "react-icons/fa6";
 import { MdOutlineSecurity } from "react-icons/md";
+import { VscMention } from "react-icons/vsc";
 
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMailOpen } from "react-icons/io";
@@ -19,7 +20,7 @@ export const ResumeDataV2 = {
         title: "Software Engineer",
         links: [
             {
-                icon: <IoIosMailOpen />,
+                icon: <VscMention />,
                 value: "reza.alimahmed@gmail.com"
             },
             {
@@ -27,11 +28,13 @@ export const ResumeDataV2 = {
                 value: "+8801778746494"
             },
             {
-                icon: <FaGithub />,
+                // icon: <FaGithub />,
+                icon: <FaLink />,
                 value: "github.com/Alim-Reza"
             },
             {
-                icon: <FaLinkedin />,
+                // icon: <FaLinkedin />,
+                icon: <FaLink />,
                 value: "linkedin.com/in/alim-ahmed-reza-asif"
             },
             {
