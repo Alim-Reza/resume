@@ -6,17 +6,17 @@ function Education({value}){
     return <>
     <section>
         <h1>Education</h1>
-        {
-            value.map((item,i,row) => (
-                <>
-                    <Item value={item} />
-                    {(i + 1 !== row.length) && <hr />}
-                </>
+        <div style={{marginTop: "1em"}}>
+            {
+                value.map((item,i,row) => (
+                    <>
+                        <Item value={item} />
+                        {(i + 1 !== row.length) && <hr />}
+                    </>
 
-            ))
-
-
-        }
+                ))
+            }
+        </div>
     </section>
     </>;
 }

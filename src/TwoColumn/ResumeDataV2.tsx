@@ -85,12 +85,12 @@ export const ResumeDataV2 = {
     ],
 
     education: [
-        {
-            degree: "Master of Science in Computer Science & Engineering",
-            uni: "North South University",
-            date: "01/2025 - Ongoing",
-            location: "Dhaka, Bangladesh"
-        },
+        // {
+        //     degree: "Master of Science in Computer Science & Engineering",
+        //     uni: "North South University",
+        //     date: "01/2025 - Ongoing",
+        //     location: "Dhaka, Bangladesh"
+        // },
         {
             degree: "Bachelor of Science in Computer Science & Engineering",
             uni: "American International University - Bangladesh",

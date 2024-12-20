@@ -7,7 +7,9 @@ function Experience({value}){
     return <>
     <section>
         <h1>Experience</h1>
-        <Exp items={value} />
+        <div style={{marginTop: "1em", marginBottom: "1em"}}>
+          <Exp items={value} />
+        </div>
     </section>
     </>;
 }
