@@ -6,6 +6,22 @@ function Education({value}){
     return <>
     <section>
         <h1>Education</h1>
+        {
+            value.map((item,i,row) => (
+                <>
+                    <Item value={item} />
+                    {(i + 1 !== row.length) && <hr />}
+                </>
+
+            ))
+
+
+        }
+    </section>
+    </>;
+}
+function Item({value}) {
+    return <>
         <h2>{value.degree}</h2>
         <h3>{value.uni}</h3>
 
@@ -13,7 +29,6 @@ function Education({value}){
               <TextWithIcon text={value.date} icon={<FaCalendarAlt />} />
               <TextWithIcon text={value.location} icon={<FaLocationDot />} />
         </div>
-    </section>
-    </>;
+    </>
 }
 export default Education;

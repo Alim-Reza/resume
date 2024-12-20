@@ -84,12 +84,20 @@ export const ResumeDataV2 = {
         
     ],
 
-    education: {
-        degree: "Bachelor of Science in Computer Science & Engineering",
-        uni: "American International University - Bangladesh",
-        date: "01/2016 - 01/2020",
-        location: "Dhaka, Bangladesh"
-    },
+    education: [
+        {
+            degree: "Master of Science in Computer Science & Engineering",
+            uni: "North South University",
+            date: "01/2025 - Ongoing",
+            location: "Dhaka, Bangladesh"
+        },
+        {
+            degree: "Bachelor of Science in Computer Science & Engineering",
+            uni: "American International University - Bangladesh",
+            date: "01/2016 - 01/2020",
+            location: "Dhaka, Bangladesh"
+        },
+    ],
 
 achievements: [
     {
