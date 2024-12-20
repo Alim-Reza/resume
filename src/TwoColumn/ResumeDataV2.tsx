@@ -20,25 +20,25 @@ export const ResumeDataV2 = {
         title: "Software Engineer",
         links: [
             {
-                icon: <VscMention />,
+                icon: <VscMention style={{ marginTop: '3px', marginRight: '3px', color: '#098bff' }}/>,
                 value: "reza.alimahmed@gmail.com"
             },
             {
-                icon: <FaPhoneAlt />,
+                icon: <FaPhoneAlt style={{ marginTop: '1px', marginRight: '3px', color: '#098bff' }}/>,
                 value: "+8801778746494"
             },
             {
-                // icon: <FaGithub />,
-                icon: <FaLink />,
-                value: "github.com/Alim-Reza"
-            },
-            {
                 // icon: <FaLinkedin />,
-                icon: <FaLink />,
+                icon: <FaLink style={{ marginTop: '3px', marginRight: '3px', color: '#098bff' }}/>,
                 value: "linkedin.com/in/alim-ahmed-reza-asif"
             },
             {
-                icon: <FaLink />,
+                // icon: <FaGithub />,
+                icon: <FaLink style={{ marginTop: '3px', marginRight: '3px', color: '#098bff' }}/>,
+                value: "github.com/Alim-Reza"
+            },
+            {
+                icon: <FaLink style={{ marginTop: '3px', marginRight: '3px', color: '#098bff' }}/>,
                 value: "hackerrank.com/aarasif2"
             }
         ]
@@ -121,8 +121,8 @@ skills: [
     "Git",
     "Bash",
     "Jenkins",
-    "Optimization",
-    "Security",
+    // "Optimization",
+    // "Security",
     "Unit Testing",
     "E2E Testing",
     "JUnit",

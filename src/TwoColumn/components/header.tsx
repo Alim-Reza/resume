@@ -10,7 +10,8 @@ function Header({value}){
                 value.links.map((x,i,row) => 
                     (   
                         <>
-                            <TextWithIcon text={x.value} icon={x.icon} coloredIcon={true} />
+                            <IconWithText text={x.value} Icon={x.icon} />
+                            {/* <TextWithIcon text={x.value} icon={x.icon} coloredIcon={true} /> */}
                         </>
                     )    
                 )
@@ -20,4 +21,14 @@ function Header({value}){
         </section>
     </>
 }
+
+function IconWithText({text, Icon}){
+    return (
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        {/* <Icon size={24} style={{ marginRight: '8px' }} /> */}
+        {Icon}
+        <span>{text}</span>
+      </div>
+    );
+  };
 export default Header;
