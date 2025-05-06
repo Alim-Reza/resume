@@ -44,7 +44,7 @@ export const ResumeDataV2 = {
         ]
     },
 
-    summary: "Experienced software engineer with 5+ years in frontend and backend web development. Proven track record in delivering innovative solutions, enhancing system performance, and improving security across high-profile projects",
+    summary: "Experienced software engineer with 6+ years in frontend and backend web development. Proven track record in delivering innovative solutions, enhancing system performance, and improving security across high-profile projects",
     experience: [
         {
             title: "Sr. Software Engineer",
@@ -85,12 +85,12 @@ export const ResumeDataV2 = {
     ],
 
     education: [
-        // {
-        //     degree: "Master of Science in Computer Science & Engineering",
-        //     uni: "North South University",
-        //     date: "01/2025 - Ongoing",
-        //     location: "Dhaka, Bangladesh"
-        // },
+        {
+            degree: "Master of Science in Computer Science & Engineering",
+            uni: "North South University",
+            date: "01/2025 - Ongoing",
+            location: "Dhaka, Bangladesh"
+        },
         {
             degree: "Bachelor of Science in Computer Science & Engineering",
             uni: "American International University - Bangladesh",
@@ -125,7 +125,7 @@ skills: [
     "Microservice",
     "Redis",
     "Kafka",
-    "RabbitMQ",
+    // "RabbitMQ",
     "Git",
     "Bash",
     "Jenkins",
