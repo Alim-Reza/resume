@@ -29,7 +29,7 @@ export interface Education {
 
 export interface Achievement {
     title: string;
-    icon: ReactNode;
+    // icon: ReactNode;
     description: string;
 }
 

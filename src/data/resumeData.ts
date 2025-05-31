@@ -41,7 +41,8 @@ export const resumeData: ResumeData = {
             location: "Dhaka, Bangladesh",
             description: "A software development company focused on creating fintech solutions.",
             points: [
-                "Redesigned the UI for the user-facing site and product management portal of the cryptocurrency trading platform, improving client satisfaction by 70%, while developing a Flutter app to enhance cross-platform engagement.",
+                "Redesigned the UI for the user-facing site and product management portal of the cryptocurrency trading platform, improving client satisfaction by 70%",
+                "Developed a Flutter app to enhance cross-platform engagement for the cryptocurrency trading platform.",
                 "Redesigned and developed a notification service for the fintech client and admin sites, boosting user engagement by 80% and reducing support tickets by 15%.",
                 "Refactored and developed Spring Boot services using JUnit, achieving 75% unit test coverage overall and enhancing code reliability and maintainability.",
                 "Conducted proactive code reviews and introduced SonarQube to enhance code quality and streamline the review, process."
@@ -87,17 +88,17 @@ export const resumeData: ResumeData = {
     achievements: [
         {
             title: "Performance Improvement",
-            icon: FaBoltLightning,
+            // icon: FaBoltLightning,
             description: "Enhanced data fetching, reducing load times by 30% and improving UI experience."
         },
         {
             title: "Deployment Automation",
-            icon: FaStar,
+            // icon: FaStar,
             description: "Automated deployment pipeline with Jenkins."
         },
         {
             title: "Security Enhancement",
-            icon: MdOutlineSecurity,
+            // icon: MdOutlineSecurity,
             description: "Prevented XSS vulnerabilities through strict content security policies and sanitization."
         }
     ],
